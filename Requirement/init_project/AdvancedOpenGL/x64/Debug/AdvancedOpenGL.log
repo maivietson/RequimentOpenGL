@@ -1,0 +1,30 @@
+﻿Build started 8/6/2018 1:50:31 PM.
+     1>Project "G:\Requirement\init_project\AdvancedOpenGL\AdvancedOpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IG:\Requirement\init_project\AdvancedOpenGL\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Main.cpp
+         Main.cpp
+     1>G:\Requirement\init_project\AdvancedOpenGL\include\learnopengl/shader.h(65): warning C4101: 'success' : unreferenced local variable
+     1>G:\Requirement\init_project\AdvancedOpenGL\include\learnopengl/shader.h(66): warning C4101: 'infoLog' : unreferenced local variable
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IG:\Requirement\init_project\AdvancedOpenGL\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt src\glad.c
+         glad.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Requirement\init_project\x64\Debug\AdvancedOpenGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:G:\Requirement\init_project\AdvancedOpenGL\libs /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"G:\Requirement\init_project\x64\Debug\AdvancedOpenGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Requirement\init_project\x64\Debug\AdvancedOpenGL.lib" /MACHINE:X64 x64\Debug\Main.obj
+         x64\Debug\glad.obj
+     1>Main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+     1>Main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+     1>Main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+     1>Main.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function main
+     1>G:\Requirement\init_project\x64\Debug\AdvancedOpenGL.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "G:\Requirement\init_project\AdvancedOpenGL\AdvancedOpenGL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.49
